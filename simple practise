@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Email</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+/* CLIENT-SPECIFIC STYLES */
+body, table, td, a {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td {
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+} /* Remove spacing between tables in Outlook 2007 and up */
+img {
+	-ms-interpolation-mode: bicubic;
+} /* Allow smoother rendering of resized image in Internet Explorer */
+/* RESET STYLES */
+img {
+	border: 0;
+	height: auto;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+	display: block;
+}
+table {
+	border-collapse: collapse !important;
+}
+body {
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+
+/* my desktop styles */
+
+    
+    
+    
+/* MOBILE STYLES */
+@media screen and (max-width: 525px) {
+/*************************************/
+/************ MY styles **************/
+   
+    
+.mob-tbl {
+	background: white;
+}
+.mob-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.mob-pod {
+	max-width: 100%;
+	width: 100%;
+}
+.mob-txt {
+	text-align: center;
+}
+.mob-bg {
+	background: #666666;
+	color: #ffffff!important;
+}
+.mob-hid {
+	display: none;
+}
+/* *******   / MY styles **************/
+/**************************************/
+} /* END BRACE for media screen 525px  */
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] {
+	margin: 0 !important;
+}
+</style>
+</head>
+<body>
+
+<!--container -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td style="background: #c0c0c0;"><!--main tables go here 4x1 -->
+    
+    <table width="100%" align="center" class="" style="max-width: 600px; background: #ffffff;">
+      <tr>
+        <td class="mob-tbl"><!-- banner-->
+          
+          <table width="100%" cellpadding="0"  cellspacing="0" border="0" class="">
+            <tr>
+              <td><img src="https://www.q95da.com/uploads/4/5/7/0/45709989/published/melon_1.jpg?1560201452" alt="Banner" width="600" height="133" class="mob-img"></td>
+            </tr>
+          </table>
+          
+          <!--banner  --></td>
+      </tr>
+      <tr>
+        <td class="mob-tbl"><!--dear-->
+          
+          <table width="100%" cellpadding="0"  cellspacing="0" border="0" class="">
+            <tr>
+              <td style="font-family:  'Trebuchet MS', 'sans-serif';  font-size: 20px; color:#ff1a1a; padding: 10px 0 10px 10px">Dear </td>
+            </tr>
+            <tr>
+              <td style="font-family:  'Trebuchet MS', 'sans-serif';  font-size: 16px; color:#000000; padding: 20px; line-height: 1.5; text-align: left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+            </tr>
+            <tr>
+              <td class="mob-hid" style="padding:0 20px;"><hr size="1">
+                <br></td>
+            </tr>
+          </table>
+          
+          <!--dear  --></td>
+      </tr>
+      <tr>
+        <td class="mob-tbl"><!--top pod-->
+          
+          <table width="100%" cellpadding="0"  cellspacing="0" border="0" class="">
+            <tr>
+              <td><!-- left pod --> 
+                <!-- pod -->
+                
+                <table width="295" cellpadding="0"  cellspacing="0" border="0" align="left" class="mob-pod" style="background: #ffffff;">
+                  <tr>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/600px_X-trans.png" alt="cube" width="295" height="295" class="mob-img"></td>
+                  </tr>
+                </table>
+                
+                <!--pod --> 
+                <!-- left pod --> 
+                <!-- right pod --> 
+                <!-- pod -->
+                
+                <table width="295" cellpadding="0"  cellspacing="0" border="0" align="right" class="mob-pod" style="background: #ffffff;">
+                  <tr>
+                    <td class="mob-txt" style="font-family:  'Trebuchet MS', 'sans-serif';  font-size: 16px; color:#000000; padding: 20px; line-height: 1.5; text-align: center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center; padding: 20px auto; margin: 10px;"><!-- button and link -->
+                      
+                      <div style="padding:30px;">&nbsp; <a href="#" title="Button" target="_blank" style="background-color: chartreuse; padding: 10px 20px; text-decoration: none; color:white; font-weight: bold; border-radius: 20px; font-size: 20px; -webkit-box-shadow: 2px 2px 2px 2px #999999;
+box-shadow: 2px 2px 2px 2px #999999;">Button</a> 
+                        
+                        <!-- button and link --> 
+                      </div>
+                      
+                      <!--pod --> 
+                      <!-- right pod --></td>
+                  </tr>
+                </table></td>
+              <!-- top pod --> 
+            </tr>
+            <tr>
+              <td class="mob-tbl"><!--bottom pod-->
+                
+                <table width="100%" cellpadding="0"  cellspacing="0" border="0" class="">
+                  <tr>
+                    <td><!-- left pod --> 
+                      <!-- pod -->
+                      
+                      <table width="295" cellpadding="0"  cellspacing="0" border="0" align="left" class="mob-pod" style="background: #ffffff;">
+                        <tr>
+                          <td style="font-family:  'Trebuchet MS', 'sans-serif';  font-size: 16px; color:#000000; padding: 20px; line-height: 1.5; text-align: center" class="mob-bg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center; padding: 20px auto; margin: 10px;"><!-- button and link -->
+                            
+                            <div style="padding:30px;">&nbsp; <a href="#" title="Button" target="_blank" style="background-color: chartreuse; padding: 10px 20px; text-decoration: none; color:white; font-weight: bold; border-radius: 20px; font-size: 20px; -webkit-box-shadow: 2px 2px 2px 2px #999999; box-shadow: 2px 2px 2px 2px #999999;">Button</a> 
+                              
+                              <!-- button and link --> 
+                            </div></td>
+                        </tr>
+                      </table>
+                      
+                      <!--pod --> 
+                      <!-- left pod --> 
+                      <!-- right pod --> 
+                      <!-- pod -->
+                      
+                      <table width="295" cellpadding="0"  cellspacing="0" border="0" align="right" class="mob-pod" style="background: #ffffff">
+                        <tr>
+                          <td class="mob-txt"><img src="https://savageandgray.co.uk/wp-content/uploads/2015/11/GHmem-600px-x-600px.jpg" alt="logo" width="295" height="295" class="mob-img"></td>
+                        </tr>
+                      </table>
+                      
+                      <!--pod --> 
+                      <!-- right pod --></td>
+                  </tr>
+                </table>
+                
+                <!-- bottom pod --></td>
+            </tr>
+          </table>
+          
+          <!-- main tables 4x1 --></td>
+      </tr>
+    </table>
+    
+    <!-- /container -->
+	</td>
+    </tr>
+    </table>
+</body>
+</html>
+
+<!--
+
+<table width="100%" cellpadding="0"  cellspacing="0" border="0" class="">
+    <tr>
+      <td>1</td>
+    </tr>
+</table>
+
